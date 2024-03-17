@@ -1,0 +1,20 @@
+<html>
+  <head></head>
+  <body>
+    <script>
+      let name = prompt("Enter your name");
+      let surname = prompt("Enter your surname");
+      let dateBirth = prompt("Enter your birth year");
+      let address = prompt("Enter your address");
+      let yearNow = 2024;
+      let age = yearNow - dateBirth;
+      yearNow = Number(yearNow);
+      age = Number(age);
+
+      alert(
+        `Hello ${name} ${surname}, I'm glad you are now ${age} years old and live in ${address}`
+      );
+      // alert ("Hello" + " " + name + " " + surname + " " + "I'm glad you are now" + " " + age + " " + "years old and live in" + " " + address )
+    </script>
+  </body>
+</html>
